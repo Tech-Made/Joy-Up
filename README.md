@@ -1,3 +1,11 @@
+# Joy Up
+
+![](landing.png)
+
+## Demo
+
+![](demo.gif)
+
 ## Dependencies
 
 List of dependencies injected after create-react-app.
