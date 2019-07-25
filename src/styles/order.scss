@@ -1,0 +1,59 @@
+@import './variables.scss';
+
+.cupcake {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    .base {
+        width: 100px;
+        height: 60px;
+        background-color: $unfilled;
+        -webkit-clip-path: polygon(0 0, 100% 0, 91% 100%, 10% 100%);
+        clip-path: polygon(0 0, 100% 0, 91% 100%, 10% 100%);
+    }
+    .base.Chocolate.Base {
+        background-color: $chocolate;
+    }
+    .base.Vanilla.Base {
+        background-color: $vanilla;
+    }
+    .base.Red.Velvet.Base {
+        background-color: $redvelvet;
+    }
+
+    .frosting {
+        width: 100px;
+        height: 50px;
+        border-radius: 50px 50px 0 0;
+        background-color: $unfilled;
+    }
+    .frosting.Chocolate.Frosting {
+        background-color: $chocolate;
+    }
+    .frosting.Vanilla.Frosting {
+        background-color: $vanilla;
+    }
+    .frosting.Red.Velvet.Frosting {
+        background-color: $redvelvet;
+    }
+
+    .topping {
+        width: 80px;
+        height: 30px;
+        background-color: $unfilled;
+        border-radius: 15px;
+        position: relative;
+        top: 2em;
+    }
+    .topping.Sprinkles {
+        background-color: $sprinkles;
+    }
+    .topping.Coconut.Flakes {
+        background-color: $vanilla;
+    }
+    .topping.Gummy.Bears {
+        background-color: $redvelvet;
+    }
+}

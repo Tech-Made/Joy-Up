@@ -1,0 +1,25 @@
+$lightbg: #FFFFFF;
+$selected: rgb(0, 195, 255);
+$bg: #F3F3F3;
+$title: #914D76;
+$chocolate: rgb(75, 41, 11);
+$vanilla: rgb(255, 218, 186);
+$redvelvet: rgb(221, 114, 114);
+$unfilled: rgba(123, 123, 123, 0.563);
+$sprinkles: rgb(59, 205, 59);
+$text: #575757;
+
+
+@font-face {
+    font-family: 'AvenirNext-Bold';
+    src: url('/assets/fonts/AvenirNext/AvenirNextLTPro-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'AvenirNext-Regular';
+    src: url('/assets/fonts/AvenirNext/AvenirNextLTPro-Regular.ttf');
+}
+
+
+$textfont: 'AvenirNext-Regular', serif;
+$titlefont: 'AvenirNext-Bold', serif;
